@@ -77,7 +77,7 @@ a{
 }*/
 .header__iner-navbar{
 	display: flex;
-	
+	justify-content: space-between;
 }
 .header__iner-item{
 	cursor: pointer;
@@ -99,6 +99,7 @@ a{
 	color: white;
 }
 ul li ul{
+	z-index: 100;
 	visibility: hidden;
 	padding-left: 0;
 	left: 0;
@@ -107,16 +108,19 @@ ul li ul{
 
 ul li:hover > ul,
 ul li ul:hover {
+	z-index: 100;
 	visibility: visible;
 	min-width: 256px;
 	text-align: center;
 	box-shadow: 0px 3px 5px -1px #ccc;
 }
 .dropdown li:hover{
+	z-index: 100;
 	padding-left: 10px;
 	border-left: 2px solid white;
 }
 .dropdown li{
+	z-index: 100;
 	color: white;
 }
 
@@ -214,6 +218,9 @@ ul li ul:hover {
 	text-align: justify;
 	font-size: 22px;
 }
+.main__iner-text a{
+	font-weight: bold;
+}
 
 .main__iner-comments{
 	width: 80%;
@@ -233,6 +240,38 @@ ul li ul:hover {
 	font-size: 24px;
 	font-weight: 500;
 }
+
+.main__teacher-items{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+}
+.main__teacher-items a{
+width: 200px;
+margin: 40px 80px;
+	text-align: center;
+}
+.main__teacher-items p{
+	font-size: 20px;
+}
+
+.main__teacher-link{
+	font-size: 28px;
+	
+}
+.main__teacher-icon{
+	width: 120px;
+}
+.main__teacher-
+
+
+
+
+
+
+
+
 
 .footer{
 	margin-top: 40px;
